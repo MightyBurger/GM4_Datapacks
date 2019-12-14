@@ -22,6 +22,8 @@ scoreboard objectives add gm4_nbk_disp minecraft.custom:minecraft.inspect_dispen
 scoreboard objectives add gm4_nbk_lectern minecraft.custom:minecraft.interact_with_lectern
 scoreboard objectives add gm4_nbk_hopper minecraft.custom:minecraft.inspect_hopper
 scoreboard objectives add gm4_nbk_campfire minecraft.custom:minecraft.interact_with_campfire
+scoreboard objectives add gm4_nbk_anvil minecraft.custom:minecraft.interact_with_anvil
+scoreboard objectives add gm4_nbk_grind minecraft.custom:minecraft.interact_with_grindstone
 
 #announce success
 tellraw @a[gamemode=creative] [{"translate":"%1$s%3427655$s","with":["[GM4]: ",{"translate":"text.gm4.prefix"}]},{"translate":"%1$s%3427655$s","with":["Noisy Blocks Installed!",{"translate":"text.gm4.modules.update.installed","with":[{"translate":"module.gm4.noisy_blocks"}]}]}]
